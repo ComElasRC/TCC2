@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  rgb(39, 39, 39); 
+}
+
+ body{
+    display: flex;
+    justify-content: center;
+ }
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+.vaga{
+    border: solid 3px #CBB26A;
+    color: #CBB26A;
+    width: 60rem;
+    height: auto;
+    margin: 10px;
+
+}
+
+ p{
+    font-size: 25px;
+    margin: 8px 5px 8px 7px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 27px;
+    
+}
+
+.botao{
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+    width: 85px;
+    height: 30px;
+    color: #CBB26A;
+    margin:0px 15px 15px 0px;
+    font-size: 15px;
+    border: solid 3px #CBB26A;
+    border-radius: 5px;   
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width:1442px){
+     .logo{
+        width: 9%;
+        height: 96%;
+     }
+}
+
+
+@media screen and (max-width:1015px){
+    
+    .logo {
+        width: 12%;
+    }
+
+    .vaga {
+        width: auto;
+    }
+
+ }
+
+ @media screen and (max-width:800px){
+    .criavaga {
+        height: 6rem;
+    }
+ }
+
+ @media screen and (max-width:650px){
+    .criavaga {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .logo {
+        width: 16%;
+    }
+
+ }
+
+ @media screen and (max-width:550px){
+    .logo {
+        width: 19%;
+    }
+ }
+
+
+
+ @media screen and (max-width:450px){
+    
+    .vaga {
+        width: auto;
+        
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 15px;
+        line-height: 2rem;
+    }
+
+    .titulo{
+     
+        font-size: 23px;
+        
+    }
+
+ }
+
+ 
+ @media screen and (max-width:400px){
+
+    .logo {
+        width: 26%;
+    }    
+
+ }
